@@ -2,12 +2,12 @@
 ## Linux/UNIX
 
 Avviare direttamente tramite
-`python3 calcolo_tasse.py`
+```python3 calcolo_tasse.py```
 
 O, in alternativam, rendere il file eseguibile con
-`sudo chmod +x calcolo_tasse.py`
+```sudo chmod +x calcolo_tasse.py```
 e poi eseguirlo con
-`./calcolo_tasse.py`
+```./calcolo_tasse.py```
 
 ## Windows
 Avviare lo script da terminale invocando l'interprete Python
@@ -25,4 +25,4 @@ Una volta inseriti i valori verranno restituiti:
 <li>Imposta</li>
 <li>Netto</li>
 
-# Lo script è valido solo per il regime forfettario, non applicate i suoi calcoli se non aderite a questo tipo di regime fiscale!:
+# Lo script è valido solo per il regime forfettario, non applicate i suoi calcoli se non aderite a questo tipo di regime fiscale!
