@@ -12,7 +12,7 @@ args = parser.parse_args()
 def calcolo_tasse(lordo, coeff_redditivita, aliquota):
     imponibile = lordo * (coeff_redditivita / 100)
     prev = imponibile * (25.72 / 100)
-    imposta = ((imponibile * aliquota) / 100)
+    imposta = (((imponibile - prev) * aliquota) / 100)
     netto = lordo - prev - imposta
     return (
         imponibile,
