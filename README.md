@@ -1,5 +1,5 @@
 # Attenzione
-## Lo script è valido solo per il regime forfettario, non applicate i suoi calcoli se non aderite a questo tipo di regime fiscale!
+## Lo script è valido solo per il regime forfettario in Gestione Separata INPS, non applicate i suoi calcoli se non aderite a questo tipo di regime fiscale!
 
 # Avvio
 ## Linux/UNIX
