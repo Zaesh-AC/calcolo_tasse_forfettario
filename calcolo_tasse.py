@@ -23,7 +23,7 @@ def calcolo_tasse(lordo, coeff_redditivita, aliquota):
 
 if __name__ == "__main__":
     lordo = args.lordo if args.lordo else int(input("Inserici lordo\n"))
-    coeff_redditivita = args.cr if args.cr else int(input("Inserici coeff redditivita\n"))
+    coeff_redditivita = args.cr if args.cr else int(input("Inserici coefficiente di redditività\n"))
     aliquota = args.aliquota if args.aliquota else int(input("Inserici aliquota\n"))
 
     imponibile, inps, imposta, netto = calcolo_tasse(lordo, coeff_redditivita, aliquota)
